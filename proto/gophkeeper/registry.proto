@@ -67,6 +67,7 @@ message RegistrationResponse {
 message AuthorizationRequest {
     string username = 1;
     string password = 2;
+    string appName = 3;
 }
 message AuthorizationResponse {
     Token accessToken = 1;
